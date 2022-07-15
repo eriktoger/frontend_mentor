@@ -9,7 +9,7 @@ const StyledList = styled.ul`
 `;
 
 const StyledLi = styled.li`
-  font-size: 2rem;
+  font-size: 1.5rem;
   list-style-position: inside;
 `;
 

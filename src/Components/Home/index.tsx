@@ -7,11 +7,12 @@ const StyledDiv = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #0b0b53;
+  background-color: #03254c;
 `;
 const Container = styled.div`
-  background-color: #d8cdf0;
+  background-color: #d0efff;
   border-radius: 15px;
+  margin: 20px;
 `;
 
 const StyledP = styled.p`
