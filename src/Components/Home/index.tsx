@@ -11,6 +11,7 @@ const StyledDiv = styled.div`
   background-image: url(${tree});
   background-position: center;
 `;
+
 const Container = styled.div`
   background-color: hsla(200, 100%, 91%, 60%);
   border-radius: 15px;
