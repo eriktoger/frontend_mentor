@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import List from "./List";
+import tree from "./images/tree.jpg";
 
 const StyledDiv = styled.div`
   height: 100vh;
@@ -7,10 +8,11 @@ const StyledDiv = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #03254c;
+  background-image: url(${tree});
+  background-position: center;
 `;
 const Container = styled.div`
-  background-color: #d0efff;
+  background-color: hsla(200, 100%, 91%, 60%);
   border-radius: 15px;
   margin: 20px;
 `;
