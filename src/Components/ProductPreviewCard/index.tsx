@@ -1,5 +1,5 @@
 const ProductPreviewCard = () => {
-  return <div>ProductPreviewCard </div>;
+  return <div>Product Preview Card </div>;
 };
 
 export default ProductPreviewCard;
