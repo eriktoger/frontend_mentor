@@ -1,0 +1,16 @@
+body {
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --orange: hsl(25, 97%, 53%);
+  --lightGrey: hsl(216, 12%, 21%);
+  --darkGrey: hsl(213, 19%, 18%);
+}
