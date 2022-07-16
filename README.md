@@ -1,3 +1,3 @@
-## Challanges from [frontendmentor](https://www.frontendmentor.io)
+## Challenges from [frontendmentor](https://www.frontendmentor.io)
 
-The challanges are hosted on [github-pages](https://eriktoger.github.io/frontend_mentor/)
+The challenges are hosted on [github-pages](https://eriktoger.github.io/frontend_mentor/)

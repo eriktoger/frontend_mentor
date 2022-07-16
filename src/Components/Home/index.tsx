@@ -20,14 +20,16 @@ const Container = styled.div`
 
 const StyledP = styled.p`
   font-size: 2.2rem;
-  padding: 10px;
+  padding-left: 10px;
+  margin-bottom: 0;
+  text-decoration: underline;
 `;
 
 const Home = () => {
   return (
     <StyledDiv>
       <Container>
-        <StyledP>Pick a Frontend Mentor Challange from the list:</StyledP>
+        <StyledP>Challenges</StyledP>
         <List />
       </Container>
     </StyledDiv>

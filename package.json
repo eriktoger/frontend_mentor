@@ -1,7 +1,7 @@
 {
   "name": "frontendmentor",
   "version": "1.0.0",
-  "description": "Challanges from [frontendmentor](https://www.frontendmentor.io)",
+  "description": "Challenges from [frontendmentor](https://www.frontendmentor.io)",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --mode development ",
