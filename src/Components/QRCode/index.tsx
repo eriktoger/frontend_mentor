@@ -53,7 +53,7 @@ const QRCode = () => {
   return (
     <StyledDiv>
       <div className="container">
-        <img src={qrCode} />
+        <img src={qrCode} alt="QR-code" />
         <h1>Improve your front-end skills by building projects</h1>
         <h2>
           Scan the QR code to visit Frontend Mentor and take your coding skills
