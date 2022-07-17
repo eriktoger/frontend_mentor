@@ -38,7 +38,10 @@ const PickRating = ({
             </span>
           ))}
         </div>
-        <button className="button" onClick={() => setRating(currentRating)}>
+        <button
+          className="button"
+          onClick={() => currentRating && setRating(currentRating)}
+        >
           Submit
         </button>
       </div>
