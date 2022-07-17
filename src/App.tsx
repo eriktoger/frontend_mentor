@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import Home from "./Components/Home";
+import Home from "./Challenges/Home";
 import { challenges } from "./constants";
 
 const App = () => {
