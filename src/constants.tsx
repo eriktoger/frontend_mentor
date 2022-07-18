@@ -3,12 +3,14 @@ import {
   ProductPreviewCard,
   QRCode,
   NFTPreviewCard,
+  OrderSummary,
 } from "./Challenges";
 import {
   InteractiveRatingPreview,
   ProductPreviewCardPreview,
   QRCodePreview,
   NFTPreview,
+  OrderSummaryPreview,
 } from "./Challenges/previews";
 
 export const challenges = [
@@ -39,5 +41,12 @@ export const challenges = [
     element: NFTPreviewCard,
     difficulty: "Newbie",
     preview: NFTPreview,
+  },
+  {
+    path: "OrderSummary",
+    title: "Order Summary",
+    element: OrderSummary,
+    difficulty: "Newbie",
+    preview: OrderSummaryPreview,
   },
 ] as const;

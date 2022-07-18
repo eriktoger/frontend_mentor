@@ -3,6 +3,7 @@ import { challenges } from "../../constants";
 import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { useIsMobile } from "../../hooks";
 
 interface Props {
   isMobile: boolean;
@@ -62,16 +63,8 @@ const Card = ({ challenge }: { challenge: Challenge }) => {
   );
 };
 
-const getIsMobile = () => innerWidth < 720;
-
 const List = () => {
-  const [isMobile, setIsMobile] = useState(getIsMobile());
-  const resizing = () => setIsMobile(getIsMobile());
-
-  useEffect(() => {
-    addEventListener("resize", resizing);
-    return () => removeEventListener("resize", resizing);
-  }, []);
+  const isMobile = useIsMobile();
 
   return (
     <CardList isMobile={isMobile}>
