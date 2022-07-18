@@ -1,11 +1,15 @@
-import InteractiveRating from "./Challenges/InteractiveRating";
-import ProductPreviewCard from "./Challenges/ProductPreviewCard";
-import QRCode from "./Challenges/QRCode";
-import NFTPreviewCard from "./Challenges/NFTPreviewCard";
-import InteractiveRatingPreview from "./Challenges/Home/images/previews/interactive-rating.jpg";
-import ProductPreviewCardPreview from "./Challenges/Home/images/previews/product-preview-card.jpg";
-import QRCodePreview from "./Challenges/Home/images/previews/QR-code.jpg";
-import NFTPreview from "./Challenges/Home/images/previews/NFT.jpg";
+import {
+  InteractiveRating,
+  ProductPreviewCard,
+  QRCode,
+  NFTPreviewCard,
+} from "./Challenges";
+import {
+  InteractiveRatingPreview,
+  ProductPreviewCardPreview,
+  QRCodePreview,
+  NFTPreview,
+} from "./Challenges/previews";
 
 export const challenges = [
   {
